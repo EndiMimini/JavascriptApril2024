@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.searchInput{
+    padding: 0px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.border-gray{
+    border: 1px solid gainsboro;
+}
+.header{
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(228,228,228,1) 49%, rgba(191,191,191,1) 100%);
+    padding-right: 20px;
+}
+.logo{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 60px;
+    height: 60px;
+
+}
+.headerList{
+    list-style: none;
+    font-weight: bold;
+    
+}
+.headerList li{
+    border-right: 1px double gainsboro;
+    padding: 20px 40px;
+}
+.searchIcon{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.w-100{
+    width: 100%;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.nav{
+    background: linear-gradient(180deg, rgba(153,153,153,1) 0%, rgba(88,88,88,1) 49%, rgba(60,60,60,1) 100%);
+    padding: 10px 20px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.nav ul{
+    list-style: none;
+    gap: 0px 25px;
+}
+#active{
+    color: white;
+}
+.nav ul li{
+    color: rgb(0, 153, 255);
+    
+    
+}
+.diagonalBorder{
+    width: 10px;
+    border-right: 1px solid gainsboro;
+    transform: skew(-0.06turn, 18deg)!important;
+}
+.flex-column{
+    flex-direction: column;
+    
+}
+
+.accordanceAdvantage h2{
+    border-right: 1px double gainsboro;
+    padding: 20px 50px;
+    font-size: 40px;
+    font-weight: 300;
+    color: gainsboro;
+}
+.browseTheStore{
+    background: linear-gradient(180deg, rgba(87,148,191,1) 0%, rgba(78,136,173,1) 50%, rgba(62,112,144,1) 100%);
+    width: 35%;
+    margin: auto;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 26px;
+}
+.discoverBlock{
+    border-radius: 7px;
+}
+.optionTitle img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.optionTitle{
+    gap: 0px 20px;
+}
+.option{
+    line-height: 1.8;
+    padding: 20px;
+    border-right: 1px solid gainsboro;
+    width: 25%;
+}
+.option p {
+    color: rgb(160, 160, 160);
+}
+.optionMainImage{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.option button{
+    background: linear-gradient(180deg, rgba(95,183,245,1) 0%, rgba(91,175,236,1) 50%, rgba(89,160,216,1) 100%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+.options{
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+
+}
+#noBorder{
+    border: none;
+}
+.optionsWrapper{
+    background: linear-gradient(180deg, rgba(252,254,253,1) 0%, rgba(246,244,244,1) 73%, rgba(242,242,242,1) 100%);
+
+}
+.emptySpace{
+    height: 60px;
+    border-top: 1px solid gainsboro;
+}
+.singleGeneral h4{
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+.singleGeneral{
+    line-height: 2.5;
+    width: 15%;
+}
+.singleGeneral p{
+    color: rgb(139, 139, 139);
+}
+.footer p{
+    color: rgb(139, 139, 139);
+}
+.footer a{
+    text-decoration: none;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    padding: 0px  20px;
+}
+.footer{
+    gap: 0px 20px;
+    border-top: 1px solid gainsboro;
+    padding-top: 20px;
+}

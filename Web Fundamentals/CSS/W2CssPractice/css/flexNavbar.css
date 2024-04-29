@@ -1,0 +1,31 @@
+
+.d-flex{
+    display: flex;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    padding: 0px 10px;
+}
+.nav-links{
+    gap: 0px 50px;
+    list-style: none;
+    align-items: center;
+}
+.nav-links li a{
+    color:  white;
+    text-decoration: none;
+}
+.grayedOut{
+    color: #a7a7a7!important;
+}
+
+.btn{
+    background-color: #14a2b8;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 4px black;
+    padding: 5px 10px;
+}
