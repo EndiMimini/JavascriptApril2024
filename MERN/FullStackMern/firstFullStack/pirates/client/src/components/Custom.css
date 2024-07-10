@@ -1,0 +1,39 @@
+.nav{
+    background-color: #783f04;
+    padding: 20px;
+
+}
+.mainContent{
+    background-color: #ff9900;
+    padding: 40px;
+}
+.singlePirate{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+.customButton{
+    background-color: #095394;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    padding: 8px;
+    text-decoration: none;
+}
+.customButton:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+.customButtonRed{
+    background-color: #cf2b27;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    padding: 8px;
+    text-decoration: none;
+}
+.customButtonRed:hover{
+    background-color: #e40805;
+    color: white;
+}
